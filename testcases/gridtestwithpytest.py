@@ -1,4 +1,4 @@
-import time
+import time1
 
 from selenium import webdriver
 from selenium.common import WebDriverException
@@ -17,6 +17,7 @@ class Base:
             print(e)
         self.driver.get('http://amazon.in')
         self.driver.maximize_window()
+        time.sleep(1)
 
 
     def quit(self):
